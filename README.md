@@ -6,7 +6,9 @@ The work in this repository is done in the Chemical and Biomolecular Engineering
 
 Atmospheric Pressure Plasma Jet (APPJ) devices exhibit highly variable behavior in response to changes in their environment. Small changes in, for example jet-tip-to-substrate sepration distane can cause drastic changes in the APPJ behavior. Using feedback control, we can mitigate some of this variability allowing for reliable, reproducible and effective operation of APPJs. Below, you can see how feedback control can help regulate substrate temperautre while the seperation distance changes (6x sped up). 
 
--> No Control <--> Voltage Controls Temperature V=>T <--> Flow Controls Temperature q=>T <-
+* Left: No Control
+* Middle: Voltage Controls Temperature V=>T
+* Right: Flow Controls Temperature q=>T 
 
 ![Helium plasma jet](/Results/compare_pi.gif)
 
