@@ -32,7 +32,7 @@ The Arduino firmware allows exchanging commands with the Arduino via serial moni
 Detailed information about the software is under [/Software](https://github.com/dgngdn/APPJ_Control/tree/master/Software). Bulk of the software is written in Python and can be easily modified for different applications. There is a client-server architecture in place based on TCP/IP protocol. This allwos information exchange with the data aquisiton software and allows for complicated calculations to be done on external computers, on the cloud etc.
 
 ## Related Academic Publications 
-* D. Gidon, B. Curtis, J. A. Paulson, D. B. Graves and A. Mesbah, ["Model-Based Feedback Control of a kHz-Excited Atmospheric Pressure Plasma Jet,"](doi.org/10.1109/TRPMS.2017.2764629) in IEEE Transactions on Radiation and Plasma Medical Sciences, vol. 2, no. 2, pp. 129-137, March 2018.
+* D. Gidon, B. Curtis, J. A. Paulson, D. B. Graves and A. Mesbah, ["Model-Based Feedback Control of a kHz-Excited Atmospheric Pressure Plasma Jet,"](http://doi.org/10.1109/TRPMS.2017.2764629) in IEEE Transactions on Radiation and Plasma Medical Sciences, vol. 2, no. 2, pp. 129-137, March 2018.
 doi: 10.1109/TRPMS.2017.2764629
 *  D. Gidon, D. B. Graves, and A. Mesbah, [“Effective dose delivery in atmospheric pressure plasma jets for plasma medicine: A model predictive control approach,”](http://iopscience.iop.org/article/10.1088/1361-6595/aa7c5d/meta) Plasma Sources Sci. Technol., vol. 26, no. 8, pp. 85005–85019, 2017.
 
