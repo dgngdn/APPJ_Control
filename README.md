@@ -1,6 +1,6 @@
 # Advanced Process Control for Atmospheric Pressure Plasmas
 
-The work in this repository is done in the University of Californa, Berkeley by [**Graves Lab**](http://www.graveslab.org) and [**Mesbah Lab**](http://www.mesbahlab.com/)
+The work in this repository is done in the Chemical and Biomolecular Engineering Deparment at University of Californa, Berkeley in [**Graves Lab**](http://www.graveslab.org) and [**Mesbah Lab**](http://www.mesbahlab.com/)
 *This repository is being regularly updated*
 
 Atmospheric Pressure Plasma Jet (APPJ) devices exhibit highly variable behavior in response to changes in their environment. Small changes in, for example jet-tip-to-substrate sepration distane can cause drastic changes in the APPJ behavior. Using feedback control, we can mitigate some of this variability allowing for reliable, reproducible and effective operation of APPJs. Below, you can see how feedback control can help regulate substrate temperautre while the seperation distance changes (6x sped up). On the left you see the no control case, in the middle temperature is controlled by manipulating applied voltage and on the right, temperature is controlled manipulating the flow.
