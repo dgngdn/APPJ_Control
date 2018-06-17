@@ -36,3 +36,6 @@ Time,Temperature Setpoint,Maximum Surface T,Ts2,Ts3,Power,Maximum Current,OES in
 ```
 
 **Note**:`Ts2` and `Ts3` are spatially resolved temperature measurements used to characterize the temperature distribution. `Ts2` is 2 pixels off the maximum value and `Ts3` is 12 pixels away. Where these measurements are taken need to be calibrated based on the distance between the substrate and the thermal camera.
+
+## Socket Clients
+Socket clients allow for interacting with the `measure_server_PI.py/measure_server_OL.py` scripts via an external computer over WiFi. The script `socket_client_feed_setpoint.py` can be used to feed the `measure_server` scripts a series of setpoints or input values (some modification of code is needed). On the other hand `socket_client_feed_setpoint.py` runs an optimization based supervisory control algorithm using CasADi(http://web.casadi.org/) to achieve 1D dose delivery.
