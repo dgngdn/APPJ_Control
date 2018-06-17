@@ -13,7 +13,9 @@ The maximum temperature measured at the surface for each case clearly demonstrat
 
 ![Helium plasma jet](/Results/Temp_prof.png)
 
-For practial applications, the APPJ should also be translated over the substrate as often the APPJ sources have an effect area (~few mm^2) much smaller than practical targets (several cm^2).  Watch the plasma translating over a surface!
+For practial applications, the APPJ should also be translated over the substrate as often the APPJ sources have an effect area (~few mm^2) much smaller than practical targets (several cm^2). We achieve this using a moving stage controlled by stepper motors akin to conventional 3D printers. This allows us to freely and precisely move the APPJ in 3D.
+
+Watch the plasma translating over a surface!
 
 ![Helium plasma jet](/Img/moving_jet.gif)
 
