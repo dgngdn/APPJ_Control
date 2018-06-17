@@ -7,7 +7,7 @@ The work in this repository is done in the University of Californa, Berkeley by 
 
 Watch the thermal image of the plasma translating over a surface!
 
-![Helium plasma jet](/results/moving_jet.gif)
+![Helium plasma jet](/Img/moving_jet.gif)
 
 This repository contains code used for implementing classical (proportional-integral-derivative) and advanced (optimization-based) feedback control on a kHz-exctited atmospheric pressure plasma jet in helium 
 
@@ -39,11 +39,11 @@ This repository contains code used for implementing classical (proportional-inte
 
 The control system consists of embedded measurements and actuation managed by two Arduino UNO controllers. A Raspberry Pi 3 is used to coordinate the microntrollers and pheripheral instruments. The Master Arduino Manages actuation of applied voltage, frequency, duty cycle and gas flow rates via homebrewed circutiry. (See \hardware section for details on instruments and ciruit diagrams). The Master Arduino also measures RMS applied voltage and RMS current via AC-to-RMS converter circuits as well as total light intensity via a photodarlington. The x,y and z position of the jet is coordinate by the Complementry Arduino equipped with two Adafruit Motor Control Shields. See the diagram below for information flow relating to the Arduino UNOs. 
 
-![Helium plasma jet](/results/APPJ_diagram_embedded.png)
+![Helium plasma jet](/Img/APPJ_diagram_embedded.png)
 
 As pheripherals, a FLIR lepton 2.5 radiometric thermal camera, RIGOL D1000Z oscilloscope and Oceanoptics optical emission spectrometer are configured. Information flow relating to the pheripheral instruments are shown below.
 
-![Helium plasma jet](/results/APPJ_diagram_pheripherals.png)
+![Helium plasma jet](/Img/APPJ_diagram_pheripherals.png)
 
 ## Firmware
 The Arduino firmware allows exchanging commands with the Arduino via serial monitor. The latest version (as of 14/6/18) is version 14, available under /firmware/examples/dac/. The firmware is used for both the Master and Complementary Arduinos and is capable of managing two gas flow rates, 3D position, applied voltage and frequency. Default measurements include RMS voltage, RMS current, total emission intensity and ambient temperature.
